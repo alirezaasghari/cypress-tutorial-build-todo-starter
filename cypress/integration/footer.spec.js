@@ -30,7 +30,7 @@ describe('Footer', () => {
 
                     cy.get('.todo-list li')
                         .should('have.length', filter.expectedLength)
-                })
+                }) 
         })
 
     })
